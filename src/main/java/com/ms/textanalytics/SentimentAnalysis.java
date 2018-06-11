@@ -43,18 +43,10 @@ public class SentimentAnalysis {
 	// **********************************************
 
 	// Replace the accessKey string value with your valid access key.
-	static String accessKey = "Valid subscription key";
+	static String accessKey = "Enter valid key";
 
 	// Replace or verify the region.
-
-	// You must use the same region in your REST API call as you used to obtain your
-	// access keys.
-	// For example, if you obtained your access keys from the westus region, replace
-	// "westcentralus" in the URI below with "westus".
-
-	// NOTE: Free trial access keys are generated in the westcentralus region, so if
-	// you are using
-	// a free trial access key, you should not need to change this region.
+	
 	static String host = "https://southeastasia.api.cognitive.microsoft.com";
 
 	static String path = "/text/analytics/v2.0/sentiment";
